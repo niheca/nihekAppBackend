@@ -1,0 +1,21 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/nihek-db
+    username: postgres
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+jwt:
+  secret:
+    token: dbgljbvbaoebvbsZkvbpsabvpibdclkvbdspifvahbcdisvfwvfouyewvbalfibeslfvafbcldasbpfiewaubfbeluafbeafbkjlsbafiaew
+
+springdoc:
+  api-docs:
+    path: /v1/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
