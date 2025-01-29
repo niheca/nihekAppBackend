@@ -14,6 +14,7 @@ public class MailgunService {
 //    String apiKey ;
 //    @Value("${mailgun.domain}")
 //    String domain;
+
     public void sendEmail(String email){
 
         String apikey = "cf866f1edcaf9db4be340f89e015c69d-d8df908e-4e992d49";
